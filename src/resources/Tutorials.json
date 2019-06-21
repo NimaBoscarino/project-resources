@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Full Stack React & Django",
+        "url": "https://www.youtube.com/watch?v=Uyei2iDA4Hs&list=PLXE2Bj4edhg5fnlk8C8e-aEONQNPPuqNp",
+        "description": "Tutorial series on how to make a basic REST API with Django and React.",
+        "submitted_by": {
+            "name": "Michael Tillman",
+            "github": "___"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Learn Docker in 12 Minutes",
+        "url": "https://www.youtube.com/watch?v=YFl2mCHdv24",
+        "description": "Docker is all the rage right now.",
+        "submitted_by": {
+            "name": "Pieter Vanderpol",
+            "github": "___"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Docker Compose in 12 Minutes",
+        "url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko",
+        "description": "Learn how to use Docker Compose to run multi-container applications easily.",
+        "submitted_by": {
+            "name": "Pieter Vanderpol",
+            "github": "___"
+        }
+    }
+]

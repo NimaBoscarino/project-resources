@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "name": "React + Rails",
+        "author": {
+            "name": "Nima Boscarino",
+            "github": "NimaBoscarino"
+        },
+        "url": "https://github.com/NimaBoscarino/react-rails-boilerplate",
+        "description": "A no-fluff boilerlate for working on a Rails + React project. Simple to deploy to Heroku.",
+        "tags": ["react", "rails"]
+    },
+    {
+        "id": "2",
+        "name": "React + Redux",
+        "author": {
+            "name": "Nima Boscarino",
+            "github": "NimaBoscarino"
+        },
+        "url": "https://github.com/NimaBoscarino/react-redux-boilerplate",
+        "description": "Simple Redux Boilerplate (with bonus React Router!)",
+        "tags": ["react", "redux", "react router"]  
+    },
+    {
+        "id": "3",
+        "name": "React + Express",
+        "author": {
+            "name": "Garrett Brick",
+            "github": "garrettgsb"
+        },
+        "url": "https://github.com/garrettgsb/react-express-boilerplate",
+        "description": "A React app served on Webpack Devserver that proxies requests to an Express backend. The rest is up to you.",
+        "tags": ["react", "express"]
+    },
+    {
+        "id": "4",
+        "name": "Vue + Flask",
+        "author": {
+            "name": "Tyson Bulmer",
+            "github": "tysonbul"
+        },
+        "url": "https://github.com/tysonbul/vue-flask-boilerplate",
+        "description": "A boilerplate project for anyone seeking to use Vue with a Python Flask backend.",
+        "tags": ["python", "vue", "flask"]
+    }
+]
