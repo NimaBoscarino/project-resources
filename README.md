@@ -2,7 +2,9 @@
 
 I've started collecting some of the boilerplates that I've made or found, along with tutorials and tips gathered by my students.
 
-To add, resources on:
+If you'd like to add a resource, make a pull request with the resources that you're submitting added to the `Boilerplates.json` or `Tutorials.json` files under `src/resources`.
+
+Among the resources that I plan on adding:
 
 - Web RTC
 - Chrome Extensions
@@ -21,3 +23,7 @@ To add, resources on:
 - Rails API mode
 - JSON Web Tokens
 - Automated Testing
+
+## Contact
+
+Please make an issue in this repo if you have specific requests, or reach out to me at `nima@lighthouselabs.com`.
