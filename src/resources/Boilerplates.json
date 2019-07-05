@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "F7E9024B-6EC1-46C5-8B8A-09E56A13AFD5",
         "name": "React + Rails",
         "author": {
             "name": "Nima Boscarino",
@@ -11,7 +11,7 @@
         "tags": ["react", "rails"]
     },
     {
-        "id": "2",
+        "id": "8C5B2C66-AFC6-41B8-B4E8-553D185199CA",
         "name": "React + Redux",
         "author": {
             "name": "Nima Boscarino",
@@ -22,7 +22,7 @@
         "tags": ["react", "redux", "react router"]  
     },
     {
-        "id": "3",
+        "id": "EAB26772-4A8E-4D53-B3B7-E10EBB4CC70A",
         "name": "React + Express",
         "author": {
             "name": "Garrett Brick",
@@ -33,7 +33,7 @@
         "tags": ["react", "express"]
     },
     {
-        "id": "4",
+        "id": "8C214C8A-9161-4D4F-8B47-201DE7971D92",
         "name": "Vue + Flask",
         "author": {
             "name": "Tyson Bulmer",

@@ -1,0 +1,113 @@
+[
+    {   
+        "id": "07FECFF9-9A42-46B7-AC0E-4D71EDAADE92",
+        "name": "Reflect",
+        "team": [
+            "Nelson",
+            "Turner",
+            "Liam"
+        ],
+        "tech": [
+            "Postgres",
+            "Knex",
+            "Node",
+            "Express",
+            "React",
+            "Axios",
+            "RescueTime"
+        ],
+        "github": "https://github.com/turnerschumann/reflect",
+        "boilerplates": [
+            "React + Express"
+        ],
+        "description": "A personal wellness application geared towards users who want to uplift their mental wellbeing. This app compiles the user's productivity data (via RescueTIme API), daily activities data, and daily mood data all in a single dashboard. Each day, users are prompted to fill out a \"reflection\" form. The app then uses natural language processing (NLP) to analyze the text-sentiment behind the user's answers in order to produce a mood score. This app will allow users to enhance their lifestyles by showing users the  correlation between their daily mood, productivity, and activities."
+
+    },
+    {
+        "id": "582574E2-E468-4CF9-B66C-834AF08E0F50",
+        "name": "Jetify",
+        "team": [
+            "Harriet",
+            "Shade",
+            "Devan"
+        ],
+        "tech": [
+            "React",
+            "Ruby on Rails",
+            "Bootstrap",
+            "Postgres",
+            "Spotify"
+        ],
+        "github": "https://github.com/shadeying/Jetify",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "Find upcoming concerts in your area(or a location of your choice) and generate a playlist based on those events."
+    },
+    {
+        "id": "C828C32D-4CCC-4905-80AD-FE23CF8FAF7C",
+        "name": "StartDuck",
+        "team": [
+            "Jerry",
+            "Xiaoyu",
+            "Betty"
+        ],
+        "tech": [
+            "React",
+            "Ruby on Rails",
+            "Postgres",
+            "Axios",
+            "React Router",
+            "Postgres"
+        ],
+        "github": "https://github.com/JerChuang/StartDuck",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "A productivity app that helps generate activities for you to do during the free time you have each day."
+    },
+    {
+        "id": "3911B0A0-9E34-409B-9B99-F2B3DA088BC8",
+        "name": "WatchPoll",
+        "team": [
+            "Pieter",
+            "Jack"
+        ],
+        "tech": [
+            "React",
+            "Ruby on Rails",
+            "Semantic UI",
+            "Postgres",
+            "Axios",
+            "Action Cable",
+            "React Router",
+            "YouTube API"
+        ],
+        "github": "https://github.com/grey275/watchpoll",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "A video playing application that allows users to enjoy watching video playlist together.  Unlike a YouTube playlist which is watched individually, Watchpoll is watched with others in groups of any size.  Automatic polls are generated and the group can select the video order they would like see the next poll video’s played in. Main viewer videos are sync’d across all users. At the end of the video being played the system selects the next video and plays it in the main viewer based on the results of the poll."
+    },
+    {
+        "id": "0D724BB3-A452-412D-A887-EE5B0DADDEA3",
+        "name": "GameHub",
+        "team": [
+            "Vijay",
+            "Michael"
+        ],
+        "tech": [
+            "React",
+            "Redux",
+            "Django",
+            "Bootstrap",
+            "Channels",
+            "Axios",
+            "SQLite",
+            "React Router"
+        ],
+        "github": "https://github.com/gitvijayy/gamehub",
+        "boilerplates": [],
+        "description": "A game center application which users can login to play cards games with each other in real time. Gamers are able to choose between playing one or more games of Memory, War, and Goofspiel."
+    }
+]

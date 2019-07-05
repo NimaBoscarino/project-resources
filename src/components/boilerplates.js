@@ -1,20 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-const Tag = ({children}) => {
-  return (
-    <span style={{
-      fontSize: '12px',
-      margin: '5px',
-      border: 'solid 1px black',
-      padding: '2px',
-      borderRadius: '4px'
-    }}>
-      {children}
-    </span>
-  )
-}
+import Tag from './tag'
 
 const BoilerplateItem = ({data}) => {
   return (
