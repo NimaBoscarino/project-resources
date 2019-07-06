@@ -24,7 +24,7 @@ const ProjectItem = ({data}) => {
   )
 }
 
-const Projects = () => {
+const Projects = ({ filter }) => {
   const { allProjectsJson } = useStaticQuery(
     graphql`
       query {
@@ -45,7 +45,10 @@ const Projects = () => {
     `
   )
 
-  const projects = allProjectsJson.edges
+  let projects = allProjectsJson.edges
+  if (filter) {
+    projects = projects.filter(p => p.node.tech.join(', ').toLowerCase().includes(filter))
+  }
 
   return (
     <div>

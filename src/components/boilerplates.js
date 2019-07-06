@@ -8,7 +8,7 @@ const BoilerplateItem = ({data}) => {
     <div style={{
       margin: '15px',
       padding: '5px',
-      background: '#EAEAEA'
+      background: '#EAEAEA',
     }}>
       <a href={data.url}>
         <h3>{data.name}</h3>
