@@ -47,7 +47,7 @@ const Projects = ({ filter }) => {
 
   let projects = allProjectsJson.edges
   if (filter) {
-    projects = projects.filter(p => p.node.tech.join(', ').toLowerCase().includes(filter))
+    projects = projects.filter(p => p.node.tech.join(', ').toLowerCase().includes(filter.toLowerCase()))
   }
 
   return (

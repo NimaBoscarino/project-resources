@@ -4,11 +4,11 @@ const Search = ({ setSearch }) => {
   return (
     <div
       style={{
-        marginLeft: '150px',
+        marginLeft: '120px',
         color: 'white'
       }}
     >
-      Search: 
+      Search by tag: 
       <input
         style={{
           marginLeft: '15px',
