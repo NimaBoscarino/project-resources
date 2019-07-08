@@ -109,5 +109,89 @@
         "github": "https://github.com/gitvijayy/gamehub",
         "boilerplates": [],
         "description": "A game center application which users can login to play cards games with each other in real time. Gamers are able to choose between playing one or more games of Memory, War, and Goofspiel."
+    },
+    {
+        "id": "AC495164-DB2D-4522-9D91-8204D205DD46",
+        "name": "Card Share",
+        "team": [
+            "Britta",
+            "Christian",
+            "Gergely"
+        ],
+        "tech": [
+            "Postgres",
+            "Knex",
+            "Node",
+            "Express",
+            "React",
+            "Socket.io"
+        ],
+        "github": "https://github.com/venetrius/card_share",
+        "boilerplates": [],
+        "description": "Networking app that helps you quickly and seemlessly identify and connect with the right people at a professional networking event."
+    },
+    {
+        "id": "6D6131BD-52E9-4B5A-B69C-8C64B6AF0437",
+        "name": "Plus-15",
+        "team": [
+            "Jelena",
+            "Matthew"
+        ],
+        "tech": [
+            "Epress",
+            "nodeJS",
+            "ReactJS",
+            "Webpack ",
+            "ES6",
+            "TurfJS",
+            "Git",
+            "GitHub",
+            "google-map-react",
+            "geojson-path-finder"
+        ],
+        "github": "https://github.com/MatthewYiHe/Plus-Fifteen-App",
+        "boilerplates": [],
+        "description": "A navation app around Calgary's +15s"
+    },
+    {
+        "id": "67BA7C90-A136-49E7-99EA-CD0B3CDE09B2",
+        "name": "Buddi",
+        "team": [
+            "Peter",
+            "Danny",
+            "Gagan"
+        ],
+        "tech": [
+            "React",
+            "Express",
+            "JSX",
+            "Socket.io",
+            "Node"
+        ],
+        "github": "https://github.com/Danny-Tran/buddi.io",
+        "boilerplates": [
+            "React + Express"
+        ],
+        "description": "Real time chat with synchronized video-watching with friends."
+    },
+    {
+        "id": "BE9444E5-5AB0-41E1-93FC-8CFEA33B8F9F",
+        "name": "Linguista",
+        "team": [
+            "Dan",
+            "Greg",
+            "Kate"
+        ],
+        "tech": [
+            "React",
+            "Express",
+            "JSX",
+            "Node"
+        ],
+        "github": "https://github.com/Danzed11/Linguista_App",
+        "boilerplates": [
+            "React + Express"
+        ],
+        "description": "Improve your foreign language skills through reading. Upload your favorite epub and click on words to translate them when you're stuck. Study foreign words through the use of flash cards."
     }
 ]
