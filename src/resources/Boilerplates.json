@@ -42,5 +42,16 @@
         "url": "https://github.com/tysonbul/vue-flask-boilerplate",
         "description": "A boilerplate project for anyone seeking to use Vue with a Python Flask backend.",
         "tags": ["python", "vue", "flask"]
-    }
+    },
+    {
+        "id": "A2705025-7001-4BB2-9629-3B98338A0B64",
+        "name": "Django + React + Redux + Channels + Websockets ",
+        "author": {
+            "name": "Vijay Srinivasan",
+            "github": "gitvijayy"
+        },
+        "url": "https://github.com/gitvijayy/Django_React_Redux_Channels_Websockets-Boilerplate",
+        "description": "A boilerplate project for anyone interested in making a project that uses Django and React.",
+        "tags": ["python", "django", "react", "redux", "channels", "websockets "]
+    }    
 ]
