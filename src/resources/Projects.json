@@ -193,5 +193,112 @@
             "React + Express"
         ],
         "description": "Improve your foreign language skills through reading. Upload your favorite epub and click on words to translate them when you're stuck. Study foreign words through the use of flash cards."
-    }
+    },
+    {
+        "id": "C7CB1110-F662-4AE5-A2B4-A02DBF947AF9",
+        "name": "Hotspots",
+        "team": [
+            "Steve Graves",
+            "Nick Yu",
+            "Bobby"
+        ],
+        "tech": [
+            "React",
+            "Ruby on Rails",
+            "Postgres",
+            "Python",
+            "Google Maps",
+            "Yelp",
+            "Google Places",
+            "Heroku",
+            "Netlify"
+        ],
+        "github": "https://github.com/yynickel/hotspots",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "A data aggregation webportal for people new to Vancouver who desire to socialize and explore the most popular restaurants, night clubs, and bars."
+    },
+    {
+        "id": "955ED528-A6AF-462C-BEDA-C52724ABCBCF",
+        "name": "Κοῖος",
+        "team": [
+            "Seth Marks",
+            "Steven Wing"
+        ],
+        "tech": [
+            "React Native",
+            "Ruby on Rails",
+            "Postgres",
+            "Heroku"
+        ],
+        "github": "https://bitbucket.org/lighthousefinalkoios",
+        "boilerplates": [],
+        "description": "FOR YOUR EYES ONLY: An immersive game where users enlist as agents in a secret organization and complete missions by interacting with the world around them."
+    },
+    {
+        "id": "D7CFC8CB-18BC-404C-923C-0E424A810D2F",
+        "name": "Wander",
+        "team": [
+            "Phil",
+            "Ryan"
+        ],
+        "tech": [
+            "React",
+            "Ruby on Rails",
+            "Postgres",
+            "Google Maps",
+            "Google Places"
+        ],
+        "github": "https://github.com/hungrypc/trip-plan",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "Organize trips with friends and family."
+    },
+    {
+        "id": "EE5149A2-3FFF-4234-8346-8DCB10EDDD2C",
+        "name": "Verify It",
+        "team": [
+            "Carlo Javier",
+            "Nolan Gendron",
+            "Won Shin"
+        ],
+        "tech": [
+            "React", 
+            "Ruby on Rails", 
+            "Postgres", 
+            "Docker", 
+            "Sass", 
+            "Machine Learning"
+        ],
+        "github": "https://github.com/wonseobshin/VerifyIt",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "News content validation that allows users to check, analyze, and discuss the content, credibility, and bias of a news story. (Rap Genius for fake news)"
+    },
+    {
+        "id": "433D05F6-9383-4E96-ACAD-05659E0D0D59",
+        "name": "Betme.gg",
+        "team": [
+            "Dan",
+            "Greg",
+            "Kate"
+        ],
+        "tech": [
+            "React", 
+            "Express", 
+            "Node", 
+            "Postgres", 
+            "Sequelize", 
+            "SASS", 
+            "PandaScore"
+        ],
+        "github": "https://github.com/govsandhu/betme-gg",
+        "boilerplates": [
+            "React + Express"
+        ],
+        "description": "A betting application allowing users to watch, see upcoming, and bet against their friends on esports matches."
+    }                    
 ]
