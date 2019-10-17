@@ -8,8 +8,8 @@ const Search = ({ setSearch }) => {
         color: 'white'
       }}
     >
-      Search by tag: 
       <input
+      placeholder="Search by tech tag"
         style={{
           marginLeft: '15px',
         }}
