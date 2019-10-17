@@ -1,11 +1,11 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React, { useState } from 'react'
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+// import Image from "../components/image"
+// import SEO from "../components/seo"
 import Boilerplates from '../components/boilerplates'
-import Tutorials from '../components/tutorials'
+// import Tutorials from '../components/tutorials'
 import Projects from '../components/projects'
 
 const IndexPage = () => {

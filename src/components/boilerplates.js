@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Tag from './tag'
 
@@ -52,7 +52,7 @@ const Boilerplates = () => {
   return (
     <div>
       <h1>Boilerplates</h1>
-      <p>These are to help you get you get started with your projects. Think of them like sourdough starters 🍞</p>
+      <p>These are to help you get you get started with your projects. Think of them like sourdough starters <span role="img" aria-label="bread emoji">🍞</span></p>
       <ul>
       {
         boilerplates.map(b => <BoilerplateItem key={b.node.id} data={b.node} />)

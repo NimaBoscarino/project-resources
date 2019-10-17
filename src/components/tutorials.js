@@ -1,6 +1,6 @@
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import PropTypes from "prop-types"
+// import { useStaticQuery, graphql } from "gatsby"
 
 const Tutorials = ({ }) => {
 
@@ -13,10 +13,10 @@ const Tutorials = ({ }) => {
   )
 }
 
-Tutorials.defaultProps = {
-}
+// Tutorials.defaultProps = {
+// }
 
-Tutorials.propTypes = {
-}
+// Tutorials.propTypes = {
+// }
 
 export default Tutorials
