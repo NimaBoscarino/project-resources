@@ -18,7 +18,6 @@ const TutorialItem = ({data}) => {
         {data.media_type} submitted by <a href={`https://github.com/${data.submitted_by.github}`}>{data.submitted_by.name}</a>
       </p>
       <p>
-      Tech:
       {
         data.tags.map(t => <Tag>{t}</Tag>)
       }
