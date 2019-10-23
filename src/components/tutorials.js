@@ -1,6 +1,7 @@
 import React from "react"
 // import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import Tag from './tag'
 
 const TutorialItem = ({data}) => {
   return (
@@ -14,7 +15,13 @@ const TutorialItem = ({data}) => {
       </a>
       <p>{data.description}</p>
       <p>
-        Submitted by <a href={`https://github.com/${data.submitted_by.github}`}>{data.submitted_by.name}</a>
+        {data.media_type} submitted by <a href={`https://github.com/${data.submitted_by.github}`}>{data.submitted_by.name}</a>
+      </p>
+      <p>
+      Tech:
+      {
+        data.tags.map(t => <Tag>{t}</Tag>)
+      }
       </p>
     </div>
   )
@@ -35,6 +42,8 @@ const Tutorials = () => {
                 name
                 github
               }
+              media_type
+              tags
             }
           }
         }
