@@ -9,7 +9,7 @@ const Search = ({ setSearch }) => {
       }}
     >
       <input
-      placeholder="Search by tag"
+        placeholder="Search by tag"
         style={{
           marginLeft: '15px',
         }}
