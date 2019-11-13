@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Search = ({ setSearch }) => {
   return (
@@ -8,8 +8,8 @@ const Search = ({ setSearch }) => {
         color: 'white'
       }}
     >
-      Search by tag: 
       <input
+        placeholder="Search by tag"
         style={{
           marginLeft: '15px',
         }}

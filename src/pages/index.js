@@ -1,16 +1,16 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React, { useState } from 'react'
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+// import Image from "../components/image"
+// import SEO from "../components/seo"
+import Projects from '../components/projects'
 import Boilerplates from '../components/boilerplates'
 import Tutorials from '../components/tutorials'
-import Projects from '../components/projects'
 
 const IndexPage = () => {
   const [search, setSearch] = useState('')
-  const [projectView, setProjectView] = useState(true)
+  const [projectView, setProjectView] = useState('projects')
 
   return (
     <Layout setSearch={setSearch}>
@@ -21,11 +21,19 @@ const IndexPage = () => {
         marginBottom: '25px'
       }}>
         Show: {" "}
-        <button onClick={() => setProjectView(true)}>Projects</button>
-        <button onClick={() => setProjectView(false)}>Boilerplates</button>
+        <button onClick={() => setProjectView('projects')}>Projects</button>
+        <button onClick={() => setProjectView('boilerplates')}>Boilerplates</button>
+        <button onClick={() => setProjectView('tutorials')}>Tutorials</button>
       </div>
+      {/* TODO: There is definitely a better way of displaying this */}
       {
-        projectView ? <Projects filter={search}/> : <Boilerplates />
+        projectView === 'projects' && <Projects filter={search}/>
+      }
+      {
+        projectView === 'boilerplates' && <Boilerplates />
+      }
+      {
+        projectView === 'tutorials' && <Tutorials />
       }
       <hr />
     </Layout>

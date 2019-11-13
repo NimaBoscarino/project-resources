@@ -7,7 +7,9 @@
         "submitted_by": {
             "name": "Michael Tilman",
             "github": "___"
-        }
+        },
+        "media_type": "Video",
+        "tags": ["react", "redux", "django", "python"]
     },
     {
         "id": "2",
@@ -17,7 +19,9 @@
         "submitted_by": {
             "name": "Pieter Vanderpol",
             "github": "___"
-        }
+        },
+        "media_type": "Video",
+        "tags": ["docker"]
     },
     {
         "id": "3",
@@ -27,6 +31,8 @@
         "submitted_by": {
             "name": "Pieter Vanderpol",
             "github": "___"
-        }
+        },
+        "media_type": "Video",
+        "tags": ["docker", "docker compose"]
     }
 ]
