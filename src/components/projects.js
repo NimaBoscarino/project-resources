@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Tag from "./tag"
 
 const ProjectItem = ({ data }) => {
+  console.log(data);
   return (
     <div
       style={{
@@ -15,6 +16,7 @@ const ProjectItem = ({ data }) => {
       <h2>
         <a href={data.github}>{data.name}</a>
       </h2>
+      {data.cohort && <p>Cohort: {data.cohort}</p>}
       <p>Team: {data.team.join(", ")}</p>
       <p>Boilerplates: {data.boilerplates.join(", ") || "None!"}</p>
       <p>
@@ -42,6 +44,7 @@ const Projects = ({ filter }) => {
               github
               boilerplates
               description
+              cohort
             }
           }
         }
