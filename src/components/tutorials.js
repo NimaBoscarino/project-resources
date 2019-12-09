@@ -1,9 +1,9 @@
 import React from "react"
 // import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Tag from './tag'
+import Tag from "./tag"
 
-const TutorialItem = ({data}) => {
+const TutorialItem = ({ data }) => {
   return (
     <div className="list-item">
       <a href={data.url}>
@@ -11,18 +11,21 @@ const TutorialItem = ({data}) => {
       </a>
       <p>{data.description}</p>
       <p>
-        {data.media_type} submitted by <a href={`https://github.com/${data.submitted_by.github}`}>{data.submitted_by.name}</a>
+        {data.media_type} submitted by{" "}
+        <a href={`https://github.com/${data.submitted_by.github}`}>
+          {data.submitted_by.name}
+        </a>
       </p>
       <p className="tags">
-        {
-          data.tags.map(t => <Tag>{t}</Tag>)
-        }
+        {data.tags.map(t => (
+          <Tag>{t}</Tag>
+        ))}
       </p>
     </div>
   )
 }
 
-const Tutorials = () => {
+const Tutorials = ({ filter }) => {
   const { allTutorialsJson } = useStaticQuery(
     graphql`
       query {
@@ -46,25 +49,35 @@ const Tutorials = () => {
     `
   )
 
-  const tutorials = allTutorialsJson.edges
+  let tutorials = allTutorialsJson.edges
+  if (filter) {
+    tutorials = tutorials.filter(p =>
+      p.node.tags
+        .join(", ")
+        .toLowerCase()
+        .includes(filter.toLowerCase())
+    )
+  }
 
   return (
     <div className="list-container">
       <h2 className="inline">Tutorials</h2>
-      <h5 className="inline"> ⁠— Sometimes we need a walkthrough! Here are some articles, videos, and tutorials you might find helpful.</h5>
+      <h5 className="inline">
+        {" "}
+        ⁠— Sometimes we need a walkthrough! Here are some articles, videos, and
+        tutorials you might find helpful.
+      </h5>
       <div className="list">
-      {
-        tutorials.map(b => <TutorialItem key={b.node.id} data={b.node} />)
-      }
+        {tutorials.map(b => (
+          <TutorialItem key={b.node.id} data={b.node} />
+        ))}
       </div>
     </div>
   )
 }
 
-// Tutorials.defaultProps = {
-// }
+// Tutorials.defaultProps = {}
 
-// Tutorials.propTypes = {
-// }
+// Tutorials.propTypes = {}
 
 export default Tutorials

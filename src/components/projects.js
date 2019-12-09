@@ -1,22 +1,25 @@
 import React from "react"
 // import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Tag from './tag'
+import Tag from "./tag"
 
-const ProjectItem = ({data}) => {
+const ProjectItem = ({ data }) => {
   return (
-    <div className="list-item" style={{ backgroundImage: `url(${data.img_url || null})` }}>
+    <div
+      className="list-item"
+      style={{ backgroundImage: `url(${data.img_url || null})` }}
+    >
       <div>
         <a href={data.github}>
           <h4>{data.name}</h4>
         </a>
-        <p>Team: {data.team.join(', ')}</p>
-        <p>Boilerplates: {data.boilerplates.join(', ') || 'None!'}</p>
+        <p>Team: {data.team.join(", ")}</p>
+        <p>Boilerplates: {data.boilerplates.join(", ") || "None!"}</p>
         <p className="tags">
           Tech:
-          {
-            data.tech.map(t => <Tag>{t}</Tag>)
-          }
+          {data.tags.map(t => (
+            <Tag>{t}</Tag>
+          ))}
         </p>
         <p>Description: {data.description}</p>
       </div>
@@ -34,10 +37,10 @@ const Projects = ({ filter }) => {
               id
               name
               team
-              tech
+              tags
               github
               boilerplates
-              description        
+              description
             }
           }
         }
@@ -47,7 +50,12 @@ const Projects = ({ filter }) => {
 
   let projects = allProjectsJson.edges
   if (filter) {
-    projects = projects.filter(p => p.node.tech.join(', ').toLowerCase().includes(filter.toLowerCase()))
+    projects = projects.filter(p =>
+      p.node.tags
+        .join(", ")
+        .toLowerCase()
+        .includes(filter.toLowerCase())
+    )
   }
 
   return (
@@ -55,18 +63,16 @@ const Projects = ({ filter }) => {
       <h2 className="inline">Projects</h2>
       <h5 className="inline"> ⁠— A hall of fame!</h5>
       <div className="list">
-      {
-        projects.map(b => <ProjectItem key={b.node.id} data={b.node} />)
-      }
+        {projects.map(b => (
+          <ProjectItem key={b.node.id} data={b.node} />
+        ))}
       </div>
     </div>
   )
 }
 
-Projects.defaultProps = {
-}
+// Projects.defaultProps = {}
 
-Projects.propTypes = {
-}
+// Projects.propTypes = {}
 
 export default Projects

@@ -7,7 +7,7 @@
             "Turner",
             "Liam"
         ],
-        "tech": [
+        "tags": [
             "Postgres",
             "Knex",
             "Node",
@@ -31,7 +31,7 @@
             "Shade",
             "Devan"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Ruby on Rails",
             "Bootstrap",
@@ -52,7 +52,7 @@
             "Xiaoyu",
             "Betty"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Ruby on Rails",
             "Postgres",
@@ -73,7 +73,7 @@
             "Pieter",
             "Jack"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Ruby on Rails",
             "Semantic UI",
@@ -96,7 +96,7 @@
             "Vijay",
             "Michael"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Redux",
             "Django",
@@ -118,7 +118,7 @@
             "Christian",
             "Gergely"
         ],
-        "tech": [
+        "tags": [
             "Postgres",
             "Knex",
             "Node",
@@ -137,7 +137,7 @@
             "Jelena",
             "Matthew"
         ],
-        "tech": [
+        "tags": [
             "Epress",
             "nodeJS",
             "ReactJS",
@@ -161,7 +161,7 @@
             "Danny",
             "Gagan"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Express",
             "JSX",
@@ -182,7 +182,7 @@
             "Greg",
             "Kate"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Express",
             "JSX",
@@ -202,7 +202,7 @@
             "Nick Yu",
             "Bobby"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Ruby on Rails",
             "Postgres",
@@ -226,7 +226,7 @@
             "Seth Marks",
             "Steven Wing"
         ],
-        "tech": [
+        "tags": [
             "React Native",
             "Ruby on Rails",
             "Postgres",
@@ -243,7 +243,7 @@
             "Phil",
             "Ryan"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Ruby on Rails",
             "Postgres",
@@ -264,7 +264,7 @@
             "Nolan Gendron",
             "Won Shin"
         ],
-        "tech": [
+        "tags": [
             "React", 
             "Ruby on Rails", 
             "Postgres", 
@@ -286,7 +286,7 @@
             "Greg",
             "Kate"
         ],
-        "tech": [
+        "tags": [
             "React", 
             "Express", 
             "Node", 

@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "2BBABC0A-9F77-4F37-909D-4BC446A9FE82",
         "name": "Full Stack React & Django",
         "url": "https://www.youtube.com/watch?v=Uyei2iDA4Hs&list=PLXE2Bj4edhg5fnlk8C8e-aEONQNPPuqNp",
         "description": "Tutorial series on how to make a basic REST API with Django and React.",
@@ -12,7 +12,7 @@
         "tags": ["react", "redux", "django", "python"]
     },
     {
-        "id": "2",
+        "id": "BDAF5963-4DB6-4EFE-B100-9374912AE4BD",
         "name": "Learn Docker in 12 Minutes",
         "url": "https://www.youtube.com/watch?v=YFl2mCHdv24",
         "description": "Docker is all the rage right now.",
@@ -24,7 +24,7 @@
         "tags": ["docker"]
     },
     {
-        "id": "3",
+        "id": "8264094D-948C-45BF-87B4-F4C71C937F6F",
         "name": "Docker Compose in 12 Minutes",
         "url": "https://www.youtube.com/watch?v=Qw9zlE3t8Ko",
         "description": "Learn how to use Docker Compose to run multi-container applications easily.",
