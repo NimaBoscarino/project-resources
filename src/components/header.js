@@ -1,13 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Search from './search'
+import Search from "./search"
 
-const Header = ({ siteTitle, setSearch }) => (
+const Header = ({ siteTitle, setSearch, toggleInfo }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#17a3dd`,
     }}
   >
     <div
@@ -16,7 +15,9 @@ const Header = ({ siteTitle, setSearch }) => (
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-around',
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -30,7 +31,10 @@ const Header = ({ siteTitle, setSearch }) => (
           {siteTitle}
         </Link>
       </h1>
-      <Search setSearch={setSearch}/>
+      <div style={{ display: "block", minWidth: "fit-content" }}>
+        <Search setSearch={setSearch} />
+        <button onClick={toggleInfo}>&#9432;</button>
+      </div>
     </div>
   </header>
 )
