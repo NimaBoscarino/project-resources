@@ -4,25 +4,25 @@ import { useStaticQuery, graphql } from "gatsby"
 import Tag from "./tag"
 
 const ProjectItem = ({ data }) => {
+  console.log(data)
   return (
     <div
       className="list-item"
       style={{ backgroundImage: `url(${data.img_url || null})` }}
     >
-      <div>
-        <a href={data.github}>
-          <h4>{data.name}</h4>
-        </a>
-        <p>Team: {data.team.join(", ")}</p>
-        <p>Boilerplates: {data.boilerplates.join(", ") || "None!"}</p>
-        <p className="tags">
-          Tech:
-          {data.tags.map(t => (
-            <Tag>{t}</Tag>
-          ))}
-        </p>
-        <p>Description: {data.description}</p>
-      </div>
+      <a href={data.github}>
+        <h4>{data.name}</h4>
+      </a>
+      {data.cohort && <p>Cohort: {data.cohort}</p>}
+      <p>Team: {data.team.join(", ")}</p>
+      <p>Boilerplates: {data.boilerplates.join(", ") || "None!"}</p>
+      <p className="tags">
+        Tech:
+        {data.tags.map(t => (
+          <Tag>{t}</Tag>
+        ))}
+      </p>
+      <p>Description: {data.description}</p>
     </div>
   )
 }
@@ -41,6 +41,7 @@ const Projects = ({ filter }) => {
               github
               boilerplates
               description
+              cohort
             }
           }
         }

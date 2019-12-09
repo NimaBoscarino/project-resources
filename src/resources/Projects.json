@@ -1,5 +1,5 @@
 [
-    {   
+    {
         "id": "07FECFF9-9A42-46B7-AC0E-4D71EDAADE92",
         "name": "Reflect",
         "team": [
@@ -20,8 +20,10 @@
         "boilerplates": [
             "React + Express"
         ],
-        "description": "A personal wellness application geared towards users who want to uplift their mental wellbeing. This app compiles the user's productivity data (via RescueTIme API), daily activities data, and daily mood data all in a single dashboard. Each day, users are prompted to fill out a \"reflection\" form. The app then uses natural language processing (NLP) to analyze the text-sentiment behind the user's answers in order to produce a mood score. This app will allow users to enhance their lifestyles by showing users the  correlation between their daily mood, productivity, and activities."
-
+        "description": "A personal wellness application geared towards users who want to uplift their mental wellbeing. This app compiles the user's productivity data (via RescueTIme API), daily activities data, and daily mood data all in a single dashboard. Each day, users are prompted to fill out a \"reflection\" form. The app then uses natural language processing (NLP) to analyze the text-sentiment behind the user's answers in order to produce a mood score. This app will allow users to enhance their lifestyles by showing users the  correlation between their daily mood, productivity, and activities.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "582574E2-E468-4CF9-B66C-834AF08E0F50",
@@ -42,7 +44,10 @@
         "boilerplates": [
             "React + Rails"
         ],
-        "description": "Find upcoming concerts in your area(or a location of your choice) and generate a playlist based on those events."
+        "description": "Find upcoming concerts in your area(or a location of your choice) and generate a playlist based on those events.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "C828C32D-4CCC-4905-80AD-FE23CF8FAF7C",
@@ -64,7 +69,10 @@
         "boilerplates": [
             "React + Rails"
         ],
-        "description": "A productivity app that helps generate activities for you to do during the free time you have each day."
+        "description": "A productivity app that helps generate activities for you to do during the free time you have each day.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "3911B0A0-9E34-409B-9B99-F2B3DA088BC8",
@@ -87,7 +95,10 @@
         "boilerplates": [
             "React + Rails"
         ],
-        "description": "A video playing application that allows users to enjoy watching video playlist together.  Unlike a YouTube playlist which is watched individually, Watchpoll is watched with others in groups of any size.  Automatic polls are generated and the group can select the video order they would like see the next poll video’s played in. Main viewer videos are sync’d across all users. At the end of the video being played the system selects the next video and plays it in the main viewer based on the results of the poll."
+        "description": "A video playing application that allows users to enjoy watching video playlist together.  Unlike a YouTube playlist which is watched individually, Watchpoll is watched with others in groups of any size.  Automatic polls are generated and the group can select the video order they would like see the next poll video’s played in. Main viewer videos are sync’d across all users. At the end of the video being played the system selects the next video and plays it in the main viewer based on the results of the poll.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "0D724BB3-A452-412D-A887-EE5B0DADDEA3",
@@ -108,7 +119,10 @@
         ],
         "github": "https://github.com/gitvijayy/gamehub",
         "boilerplates": [],
-        "description": "A game center application which users can login to play cards games with each other in real time. Gamers are able to choose between playing one or more games of Memory, War, and Goofspiel."
+        "description": "A game center application which users can login to play cards games with each other in real time. Gamers are able to choose between playing one or more games of Memory, War, and Goofspiel.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "AC495164-DB2D-4522-9D91-8204D205DD46",
@@ -128,7 +142,10 @@
         ],
         "github": "https://github.com/venetrius/card_share",
         "boilerplates": [],
-        "description": "Networking app that helps you quickly and seemlessly identify and connect with the right people at a professional networking event."
+        "description": "Networking app that helps you quickly and seemlessly identify and connect with the right people at a professional networking event.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "6D6131BD-52E9-4B5A-B69C-8C64B6AF0437",
@@ -151,7 +168,10 @@
         ],
         "github": "https://github.com/MatthewYiHe/Plus-Fifteen-App",
         "boilerplates": [],
-        "description": "A navation app around Calgary's +15s"
+        "description": "A navation app around Calgary's +15s",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "67BA7C90-A136-49E7-99EA-CD0B3CDE09B2",
@@ -172,7 +192,10 @@
         "boilerplates": [
             "React + Express"
         ],
-        "description": "Real time chat with synchronized video-watching with friends."
+        "description": "Real time chat with synchronized video-watching with friends.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "BE9444E5-5AB0-41E1-93FC-8CFEA33B8F9F",
@@ -192,7 +215,10 @@
         "boilerplates": [
             "React + Express"
         ],
-        "description": "Improve your foreign language skills through reading. Upload your favorite epub and click on words to translate them when you're stuck. Study foreign words through the use of flash cards."
+        "description": "Improve your foreign language skills through reading. Upload your favorite epub and click on words to translate them when you're stuck. Study foreign words through the use of flash cards.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "C7CB1110-F662-4AE5-A2B4-A02DBF947AF9",
@@ -217,7 +243,10 @@
         "boilerplates": [
             "React + Rails"
         ],
-        "description": "A data aggregation webportal for people new to Vancouver who desire to socialize and explore the most popular restaurants, night clubs, and bars."
+        "description": "A data aggregation webportal for people new to Vancouver who desire to socialize and explore the most popular restaurants, night clubs, and bars.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "955ED528-A6AF-462C-BEDA-C52724ABCBCF",
@@ -234,7 +263,10 @@
         ],
         "github": "https://bitbucket.org/lighthousefinalkoios",
         "boilerplates": [],
-        "description": "FOR YOUR EYES ONLY: An immersive game where users enlist as agents in a secret organization and complete missions by interacting with the world around them."
+        "description": "FOR YOUR EYES ONLY: An immersive game where users enlist as agents in a secret organization and complete missions by interacting with the world around them.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "D7CFC8CB-18BC-404C-923C-0E424A810D2F",
@@ -254,7 +286,10 @@
         "boilerplates": [
             "React + Rails"
         ],
-        "description": "Organize trips with friends and family."
+        "description": "Organize trips with friends and family.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "EE5149A2-3FFF-4234-8346-8DCB10EDDD2C",
@@ -269,14 +304,17 @@
             "Ruby on Rails", 
             "Postgres", 
             "Docker", 
-            "Sass", 
+            "Sass",
             "Machine Learning"
         ],
         "github": "https://github.com/wonseobshin/VerifyIt",
         "boilerplates": [
             "React + Rails"
         ],
-        "description": "News content validation that allows users to check, analyze, and discuss the content, credibility, and bias of a news story. (Rap Genius for fake news)"
+        "description": "News content validation that allows users to check, analyze, and discuss the content, credibility, and bias of a news story. (Rap Genius for fake news)",
+        "img_url": null,
+        "public": false,
+        "cohort": null
     },
     {
         "id": "433D05F6-9383-4E96-ACAD-05659E0D0D59",
@@ -292,13 +330,161 @@
             "Node", 
             "Postgres", 
             "Sequelize", 
-            "SASS", 
+            "SASS",
             "PandaScore"
         ],
         "github": "https://github.com/govsandhu/betme-gg",
         "boilerplates": [
             "React + Express"
         ],
-        "description": "A betting application allowing users to watch, see upcoming, and bet against their friends on esports matches."
-    }                    
+        "description": "A betting application allowing users to watch, see upcoming, and bet against their friends on esports matches.",
+        "img_url": null,
+        "public": false,
+        "cohort": null
+    },
+    {
+        "id": "682E6B90-1F0E-4D7B-A5BF-34C3B93CCF4A",
+        "name": "ListenIn",
+        "team": [
+            "Anne",
+            "Brandon",
+            "Julia"
+        ],
+        "tags": [
+            "Rails",
+            "React",
+            "JavaScript",
+            "Postgres",
+            "Axios",
+            "Sass"
+        ],
+        "github": "https://github.com/Bjam091/final-project",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "A location-based app using MapBox and the Spotify API to find what people are listening to nearby. Users can broadcast their current music, like and save other users' currently playing tracks, view and save another user's previously played tracks, and toggle privacy settings.",
+        "img_url": null,
+        "public": false,
+        "cohort": "Vancouver - September 16, 2019"
+    },
+    {
+        "id": "34E10805-48EE-4A73-8B08-80C95ABF3A5D",
+        "name": "Ok, Boomer",
+        "team": [
+            "Gabi",
+            "Darren",
+            "Jacky"
+        ],
+        "tags": [
+            "React",
+            "JavaScript",
+            "Phaser.js",
+            "Express",
+            "Socket.io",
+            "Node.js",
+            "JQuery"
+        ],
+        "github": "https://github.com/umrude/ok-boomer",
+        "boilerplates": [
+            "React + Express"
+        ],
+        "description": "A multiplayer game inspired by Bomberman! Ok, Boomer is a Phaser.js based multiplayer game (up to 4 players) with a React based controller via mobile devices. The controllers will change colors relative to the character randomly selected for you on connection. A message will appear on your controller if you win or lose. The goal of the game is to be the last one standing in a battle-royale style match.",
+        "img_url": "https://raw.githubusercontent.com/umrude/ok-boomer/master/react-front-end/src/screenshots/mainpage.gif",
+        "public": false,
+        "cohort": "Vancouver - September 16, 2019"
+    },
+    {
+        "id": "D1E7F611-952C-4AEE-B00B-0171C2EAF264",
+        "name": "Xstitch",
+        "team": [
+            "Mel",
+            "Puneet",
+            "Charlotte"
+        ],
+        "tags": [
+            "React",
+            "JavaScript",
+            "Rails",
+            "Ruby",
+            "Postgres",
+            "Semantic UI",
+            "CSS"
+        ],
+        "github": "https://github.com/user956/Xstitch",
+        "boilerplates": [
+            "React + Rails"
+        ],
+        "description": "THE ULTIMATE cross-stitch pattern creating app. Users can create cross-stitch patterns, get inspiration, edit patterns, like/ unlike patterns, save multiple times, and see version history of all the saves.",
+        "img_url": null,
+        "public": false,
+        "cohort": "Vancouver - September 16, 2019"
+    },
+    {
+        "id": "74B2EEB0-5965-418C-9BB0-D7E13F62A919",
+        "name": "Trekk",
+        "team": [
+            "Adam",
+            "Frank",
+            "Jackson"
+        ],
+        "tags": [
+            "ViroReact",
+            "React Native",
+            "Ruby",
+            "Rails",
+            "PostgreSQL"
+        ],
+        "github": "https://github.com/JacksonStark/trekk",
+        "boilerplates": [],
+        "description": "Trekk is a mobile application that allows users to create and share custom augmented reality tours, or ‘Trekks’. A user is able to customize their own Trekks by submitting marker images with their corresponding media to be displayed. These media can be in the form of a text description, image url and/or video url. Guests can access private Trekks via a randomly generated access code provided by the Trekk owner.",
+        "img_url": "https://camo.githubusercontent.com/13a844e0c563ad2a60a659dd0b1b3ac39bf46156/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d396d57365a366b4e4f515343514f346c772f67697068792e676966",
+        "public": false,
+        "cohort": "Vancouver - September 16, 2019"
+    },
+    {
+        "id": "61367DE2-8A34-4395-93A1-891A9F40A599",
+        "name": "Plantastic",
+        "team": [
+            "Logan",
+            "Lizzy",
+            "Arian"
+        ],
+        "tags": [
+            "React",
+            "Rails",
+            "Postgres",
+            "Express",
+            "Node.js",
+            "Styled Components",
+            "Raspberry Pi",
+            "IP Stack"
+        ],
+        "github": "https://github.com/arianrah/flower-power",
+        "boilerplates": ["React + Rails"],
+        "description": "Plantastic is an application combined with a Raspberry Pi that helps people keep their plants alive.  Using a moisture sensor, the Pi will intelligently water the plant based off of moisture levels.  Logs will be sent to the users front end displaying the duration of how long the pump ran for.\n\nBackend: https://GitHub.com/ShawkBawks/aloeserver",
+        "img_url": "https://raw.githubusercontent.com/arianrah/flower-power/master/login.png",
+        "public": false,
+        "cohort": "Vancouver - September 16, 2019"
+    },
+    {
+        "id": "6A35663E-CA4B-4589-83DF-EF029CB29099",
+        "name": "Fitogachi",
+        "team": [
+            "Fabio",
+            "John",
+            "Jake"
+        ],
+        "tags": [
+            "React",
+            "Rails",
+            "Postgres",
+            "Fitbit"
+        ],
+        "github": "https://github.com/fapapa/Bit-Fit",
+        "boilerplates": [],
+        "description": "Remember the Tamogatchi? A pet you kept alive at the cost of your time and sanity. Now comes Fitogachi. A pet you keep alive by being active. Through the fitbit API, the application has access to your calories, steps, and even you fitbit friends. The progress you make not only levels up your Fitogatchi, allowing access to perks, but is recorded and is viewable on the fitness page across various time periods. If having a life at stake isn't enough to motivate users they can also challenge other users to competitions to see who can burn the most calories and watch their fitogachi battle by having calories burned converted into an animation viewable upon competition completion.",
+        "img_url": null,
+        "public": false,
+        "cohort": "Vancouver - September 16, 2019"
+    }
 ]
