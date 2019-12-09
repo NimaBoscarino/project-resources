@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Tag from "./tag"
 
 const ProjectItem = ({ data }) => {
+  console.log(data);
   return (
     <div
       style={{

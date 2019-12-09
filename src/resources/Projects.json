@@ -350,7 +350,7 @@
             "Brandon",
             "Julia"
         ],
-        "tech": [
+        "tags": [
             "Rails",
             "React",
             "JavaScript",
@@ -375,7 +375,7 @@
             "Darren",
             "Jacky"
         ],
-        "tech": [
+        "tags": [
             "React",
             "JavaScript",
             "Phaser.js",
@@ -401,7 +401,7 @@
             "Puneet",
             "Charlotte"
         ],
-        "tech": [
+        "tags": [
             "React",
             "JavaScript",
             "Rails",
@@ -427,7 +427,7 @@
             "Frank",
             "Jackson"
         ],
-        "tech": [
+        "tags": [
             "ViroReact",
             "React Native",
             "Ruby",
@@ -449,7 +449,7 @@
             "Lizzy",
             "Arian"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Rails",
             "Postgres",
@@ -474,7 +474,7 @@
             "John",
             "Jake"
         ],
-        "tech": [
+        "tags": [
             "React",
             "Rails",
             "Postgres",
