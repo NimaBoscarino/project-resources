@@ -6,15 +6,17 @@ import Tag from './tag'
 const ProjectItem = ({data}) => {
   return (
     <div className="list-item" style={{ backgroundImage: `url(${data.img_url || null})` }}>
-      <div style={{ height: "22vw" }}>
-        <h3><a href={data.github}>{data.name}</a></h3>
+      <div>
+        <a href={data.github}>
+          <h4>{data.name}</h4>
+        </a>
         <p>Team: {data.team.join(', ')}</p>
         <p>Boilerplates: {data.boilerplates.join(', ') || 'None!'}</p>
-        <p>
-        Tech:
-        {
-          data.tech.map(t => <Tag>{t}</Tag>)
-        }
+        <p className="tags">
+          Tech:
+          {
+            data.tech.map(t => <Tag>{t}</Tag>)
+          }
         </p>
         <p>Description: {data.description}</p>
       </div>
@@ -51,7 +53,7 @@ const Projects = ({ filter }) => {
   return (
     <div className="list-container">
       <h2 className="inline">Projects</h2>
-      <p className="inline"> ⁠— A hall of fame!</p>
+      <h5 className="inline"> ⁠— A hall of fame!</h5>
       <div className="list">
       {
         projects.map(b => <ProjectItem key={b.node.id} data={b.node} />)

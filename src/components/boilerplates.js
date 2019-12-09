@@ -7,15 +7,17 @@ const BoilerplateItem = ({data}) => {
   return (
     <div className="list-item">
       <a href={data.url}>
-        <h3>{data.name}</h3>
+        <h4>{data.name}</h4>
       </a>
       <p>{data.description}</p>
       <p>
         By <a href={`https://github.com/${data.author.github}`}>{data.author.name}</a>
       </p>
-      {
-        data.tags.map(t => <Tag>{t}</Tag>)
-      }
+      <p className="tags">
+        {
+          data.tags.map(t => <Tag>{t}</Tag>)
+        }
+      </p>
     </div>
   )
 }
@@ -48,7 +50,7 @@ const Boilerplates = () => {
   return (
     <div className="list-container">
       <h2 className="inline">Boilerplates</h2>
-      <p className="inline"> ⁠— These are to help you get started with your projects. Think of them like sourdough starters <span role="img" aria-label="bread emoji">🍞</span>.</p>
+      <h5 className="inline"> ⁠— These are to help you get started with your projects. Think of them like sourdough starters <span role="img" aria-label="bread emoji">🍞</span>.</h5>
       <div className="list">
       {
         boilerplates.map(b => <BoilerplateItem key={b.node.id} data={b.node} />)

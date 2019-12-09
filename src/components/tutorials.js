@@ -7,16 +7,16 @@ const TutorialItem = ({data}) => {
   return (
     <div className="list-item">
       <a href={data.url}>
-        <h3>{data.name}</h3>
+        <h4>{data.name}</h4>
       </a>
       <p>{data.description}</p>
       <p>
         {data.media_type} submitted by <a href={`https://github.com/${data.submitted_by.github}`}>{data.submitted_by.name}</a>
       </p>
-      <p>
-      {
-        data.tags.map(t => <Tag>{t}</Tag>)
-      }
+      <p className="tags">
+        {
+          data.tags.map(t => <Tag>{t}</Tag>)
+        }
       </p>
     </div>
   )
@@ -51,7 +51,7 @@ const Tutorials = () => {
   return (
     <div className="list-container">
       <h2 className="inline">Tutorials</h2>
-      <p className="inline"> ⁠— Sometimes we just need a walkthrough! Here are some articles, videos, and tutorial series that you might find helpful.</p>
+      <h5 className="inline"> ⁠— Sometimes we need a walkthrough! Here are some articles, videos, and tutorials you might find helpful.</h5>
       <div className="list">
       {
         tutorials.map(b => <TutorialItem key={b.node.id} data={b.node} />)

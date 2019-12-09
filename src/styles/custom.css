@@ -1,7 +1,7 @@
 button {
     border-radius: 0.35em;
     border: 0;
-    padding: 0.25em 0.75em;
+    padding: 0.5em 1em;
     /* outline: none */
 }
 
@@ -35,7 +35,7 @@ button:active {
 
 .popup-container {
     background-color: #00000080;
-    /* 'backdrop-filter': blur(0.2em); */
+    /* backdrop-filter: blur(0.2em); */
     position: fixed;
     z-index: 1;
     display: flex;
@@ -77,9 +77,23 @@ button:active {
     border-radius: 0.25em;
     margin: 1%;
     overflow: hidden;
-    height: 30vw;
+    height: 35vw;
     padding: 1em;
     width: 31%;     
+}
+
+header {
+    background-color: #148fc1;
+}
+
+.inner-header {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 footer {
@@ -88,4 +102,42 @@ footer {
 
 .inline {
     display: inline;
+}
+
+p, li, span, a, button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: .9rem;
+    line-height: normal;
+    margin: 0.3em 0;
+}
+
+a:hover, a:active {
+    /* color: #222F3F; */
+    color: #17a3dd;
+}
+
+a {
+    color: #148fc1;
+    /* color: #446B88; */
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    /* font-size: .8rem; */
+}
+
+.tag {
+    font-size: 0.8em;
+    margin: 0.2em;
+    border: solid 1px black;
+    padding: 0.2em;
+    border-radius: 0.25em;
+}
+
+.tags {
+    line-height: 1.6em;
+    display: flex;
+    flex-wrap: wrap;
 }
