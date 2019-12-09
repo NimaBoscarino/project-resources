@@ -50,8 +50,8 @@ const Projects = ({ filter }) => {
 
   return (
     <div className="list-container">
-      <h2 style={{ display: "inline" }}>Projects</h2>
-      <p style={{ display: "inline" }}> ⁠— A hall of fame!</p>
+      <h2 className="inline">Projects</h2>
+      <p className="inline"> ⁠— A hall of fame!</p>
       <div className="list">
       {
         projects.map(b => <ProjectItem key={b.node.id} data={b.node} />)

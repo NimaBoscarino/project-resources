@@ -77,11 +77,15 @@ button:active {
     border-radius: 0.25em;
     margin: 1%;
     overflow: hidden;
-    height: 18vw;
+    height: 30vw;
     padding: 1em;
     width: 31%;     
 }
 
 footer {
     text-align: center;
+}
+
+.inline {
+    display: inline;
 }

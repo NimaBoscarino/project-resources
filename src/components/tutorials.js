@@ -5,11 +5,7 @@ import Tag from './tag'
 
 const TutorialItem = ({data}) => {
   return (
-    <div style={{
-      margin: '15px',
-      padding: '5px',
-      background: '#EAEAEA',
-    }}>
+    <div className="list-item">
       <a href={data.url}>
         <h3>{data.name}</h3>
       </a>
@@ -53,14 +49,14 @@ const Tutorials = () => {
   const tutorials = allTutorialsJson.edges
 
   return (
-    <div>
-      <h1>Tutorials</h1>
-      <p>Sometimes we just need a walkthrough! Here are some articles, videos, and tutorial series that you might find helpful.</p>
-      <ul>
+    <div className="list-container">
+      <h2 className="inline">Tutorials</h2>
+      <p className="inline"> ⁠— Sometimes we just need a walkthrough! Here are some articles, videos, and tutorial series that you might find helpful.</p>
+      <div className="list">
       {
         tutorials.map(b => <TutorialItem key={b.node.id} data={b.node} />)
       }
-      </ul>
+      </div>
     </div>
   )
 }

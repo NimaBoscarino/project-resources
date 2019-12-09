@@ -5,11 +5,7 @@ import Tag from './tag'
 
 const BoilerplateItem = ({data}) => {
   return (
-    <div style={{
-      margin: '15px',
-      padding: '5px',
-      background: '#EAEAEA',
-    }}>
+    <div className="list-item">
       <a href={data.url}>
         <h3>{data.name}</h3>
       </a>
@@ -50,14 +46,14 @@ const Boilerplates = () => {
   const boilerplates = allBoilerplatesJson.edges
 
   return (
-    <div>
-      <h1>Boilerplates</h1>
-      <p>These are to help you get you get started with your projects. Think of them like sourdough starters <span role="img" aria-label="bread emoji">🍞</span></p>
-      <ul>
+    <div className="list-container">
+      <h2 className="inline">Boilerplates</h2>
+      <p className="inline"> ⁠— These are to help you get started with your projects. Think of them like sourdough starters <span role="img" aria-label="bread emoji">🍞</span>.</p>
+      <div className="list">
       {
         boilerplates.map(b => <BoilerplateItem key={b.node.id} data={b.node} />)
       }
-      </ul>
+      </div>
     </div>
   )
 }
