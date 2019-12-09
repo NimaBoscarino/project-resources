@@ -1,32 +1,37 @@
 import React from "react"
 // import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Tag from './tag'
+import Tag from "./tag"
 
-const TutorialItem = ({data}) => {
+const TutorialItem = ({ data }) => {
   return (
-    <div style={{
-      margin: '15px',
-      padding: '5px',
-      background: '#EAEAEA',
-    }}>
+    <div
+      style={{
+        margin: "15px",
+        padding: "5px",
+        background: "#EAEAEA",
+      }}
+    >
       <a href={data.url}>
         <h3>{data.name}</h3>
       </a>
       <p>{data.description}</p>
       <p>
-        {data.media_type} submitted by <a href={`https://github.com/${data.submitted_by.github}`}>{data.submitted_by.name}</a>
+        {data.media_type} submitted by{" "}
+        <a href={`https://github.com/${data.submitted_by.github}`}>
+          {data.submitted_by.name}
+        </a>
       </p>
       <p>
-      {
-        data.tags.map(t => <Tag>{t}</Tag>)
-      }
+        {data.tags.map(t => (
+          <Tag>{t}</Tag>
+        ))}
       </p>
     </div>
   )
 }
 
-const Tutorials = () => {
+const Tutorials = ({ filter }) => {
   const { allTutorialsJson } = useStaticQuery(
     graphql`
       query {
@@ -50,25 +55,34 @@ const Tutorials = () => {
     `
   )
 
-  const tutorials = allTutorialsJson.edges
+  let tutorials = allTutorialsJson.edges
+  if (filter) {
+    tutorials = tutorials.filter(p =>
+      p.node.tags
+        .join(", ")
+        .toLowerCase()
+        .includes(filter.toLowerCase())
+    )
+  }
 
   return (
     <div>
       <h1>Tutorials</h1>
-      <p>Sometimes we just need a walkthrough! Here are some articles, videos, and tutorial series that you might find helpful.</p>
+      <p>
+        Sometimes we just need a walkthrough! Here are some articles, videos,
+        and tutorial series that you might find helpful.
+      </p>
       <ul>
-      {
-        tutorials.map(b => <TutorialItem key={b.node.id} data={b.node} />)
-      }
+        {tutorials.map(b => (
+          <TutorialItem key={b.node.id} data={b.node} />
+        ))}
       </ul>
     </div>
   )
 }
 
-// Tutorials.defaultProps = {
-// }
+// Tutorials.defaultProps = {}
 
-// Tutorials.propTypes = {
-// }
+// Tutorials.propTypes = {}
 
 export default Tutorials
