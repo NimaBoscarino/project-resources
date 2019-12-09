@@ -365,7 +365,7 @@
         "description": "A location-based app using MapBox and the Spotify API to find what people are listening to nearby. Users can broadcast their current music, like and save other users' currently playing tracks, view and save another user's previously played tracks, and toggle privacy settings.",
         "img_url": null,
         "public": false,
-        "cohort": "Vancouver - June 24, 2019"
+        "cohort": "Vancouver - September 16, 2019"
     },
     {
         "id": "34E10805-48EE-4A73-8B08-80C95ABF3A5D",
@@ -391,7 +391,7 @@
         "description": "A multiplayer game inspired by Bomberman! Ok, Boomer is a Phaser.js based multiplayer game (up to 4 players) with a React based controller via mobile devices. The controllers will change colors relative to the character randomly selected for you on connection. A message will appear on your controller if you win or lose. The goal of the game is to be the last one standing in a battle-royale style match.",
         "img_url": "https://raw.githubusercontent.com/umrude/ok-boomer/master/react-front-end/src/screenshots/mainpage.gif",
         "public": false,
-        "cohort": "Vancouver - June 24, 2019"
+        "cohort": "Vancouver - September 16, 2019"
     },
     {
         "id": "D1E7F611-952C-4AEE-B00B-0171C2EAF264",
@@ -417,7 +417,7 @@
         "description": "THE ULTIMATE cross-stitch pattern creating app. Users can create cross-stitch patterns, get inspiration, edit patterns, like/ unlike patterns, save multiple times, and see version history of all the saves.",
         "img_url": null,
         "public": false,
-        "cohort": "Vancouver - June 24, 2019"
+        "cohort": "Vancouver - September 16, 2019"
     },
     {
         "id": "74B2EEB0-5965-418C-9BB0-D7E13F62A919",
@@ -439,7 +439,7 @@
         "description": "Trekk is a mobile application that allows users to create and share custom augmented reality tours, or ‘Trekks’. A user is able to customize their own Trekks by submitting marker images with their corresponding media to be displayed. These media can be in the form of a text description, image url and/or video url. Guests can access private Trekks via a randomly generated access code provided by the Trekk owner.",
         "img_url": "https://camo.githubusercontent.com/13a844e0c563ad2a60a659dd0b1b3ac39bf46156/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d396d57365a366b4e4f515343514f346c772f67697068792e676966",
         "public": false,
-        "cohort": "Vancouver - June 24, 2019"
+        "cohort": "Vancouver - September 16, 2019"
     },
     {
         "id": "61367DE2-8A34-4395-93A1-891A9F40A599",
@@ -464,7 +464,7 @@
         "description": "Plantastic is an application combined with a Raspberry Pi that helps people keep their plants alive.  Using a moisture sensor, the Pi will intelligently water the plant based off of moisture levels.  Logs will be sent to the users front end displaying the duration of how long the pump ran for.\n\nBackend: https://GitHub.com/ShawkBawks/aloeserver",
         "img_url": "https://raw.githubusercontent.com/arianrah/flower-power/master/login.png",
         "public": false,
-        "cohort": "Vancouver - June 24, 2019"
+        "cohort": "Vancouver - September 16, 2019"
     },
     {
         "id": "6A35663E-CA4B-4589-83DF-EF029CB29099",
@@ -485,6 +485,6 @@
         "description": "Remember the Tamogatchi? A pet you kept alive at the cost of your time and sanity. Now comes Fitogachi. A pet you keep alive by being active. Through the fitbit API, the application has access to your calories, steps, and even you fitbit friends. The progress you make not only levels up your Fitogatchi, allowing access to perks, but is recorded and is viewable on the fitness page across various time periods. If having a life at stake isn't enough to motivate users they can also challenge other users to competitions to see who can burn the most calories and watch their fitogachi battle by having calories burned converted into an animation viewable upon competition completion.",
         "img_url": null,
         "public": false,
-        "cohort": "Vancouver - June 24, 2019"
+        "cohort": "Vancouver - September 16, 2019"
     }
 ]
