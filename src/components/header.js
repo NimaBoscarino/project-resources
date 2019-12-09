@@ -17,7 +17,7 @@ const Header = ({ siteTitle, setSearch, toggleInfo }) => (
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
       }}
     >
       <h1 style={{ margin: 0 }}>
