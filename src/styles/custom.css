@@ -21,8 +21,8 @@ button:active {
 .close-button {
     border-radius: 0.4em;
     float: right;
-    height: 1.5em;
-    width: 1.5em;
+    height: 2em;
+    width: 2em;
     padding: 0;
 }
 
@@ -105,9 +105,9 @@ footer {
 }
 
 p, li, span, a, button {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: .75rem;
     line-height: normal;
     margin: 0.3em 0;
 }
@@ -123,9 +123,8 @@ a {
 }
 
 h1, h2, h3, h4, h5 ,h6 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Roboto, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    /* font-size: .8rem; */
 }
 
 .tag {

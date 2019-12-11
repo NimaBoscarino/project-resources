@@ -32,7 +32,7 @@ const Layout = ({ children, setSearch }) => {
   return (
     <>
       {showInfo && (
-       <div className="popup-container">
+       <div className="popup-container" onClick={toggleInfo}>
           <div className="popup">
           <button className="close-button" onClick={toggleInfo}>&times;</button>
           <h2>The best place to find final project resources!</h2>
