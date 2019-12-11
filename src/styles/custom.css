@@ -1,4 +1,8 @@
-button {
+/* TODO:
+- Refactor to CSS modules
+- add media queries for fewer project columns */
+
+ button {
     border-radius: 0.35em;
     border: 0;
     padding: 0.5em 1em;
@@ -45,6 +49,10 @@ button:active {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.popup-container:focus {
+    background-color: #83cbff80;
 }
 
 .project-view-buttons {

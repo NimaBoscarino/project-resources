@@ -2,11 +2,11 @@ import React from 'react'
 
 const Tag = ({children}) => {
   return (
-    <div>
+    <span>
       <span className="tag">
         {children}
       </span>
-    </div>
+    </span>
   )
 }
 

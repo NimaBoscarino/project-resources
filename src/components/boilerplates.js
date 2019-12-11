@@ -17,8 +17,8 @@ const BoilerplateItem = ({ data }) => {
         </a>
       </p>
       <p className="tags">
-        {data.tags.map(t => (
-          <Tag>{t}</Tag>
+        {data.tags.map((t, i) => (
+          <Tag key={`${data.id}-tag-${i}`}>{t}</Tag>
         ))}
       </p>
     </div>

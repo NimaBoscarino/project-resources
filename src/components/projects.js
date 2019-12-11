@@ -17,8 +17,8 @@ const ProjectItem = ({ data }) => {
       <p>Boilerplates: {data.boilerplates.join(", ") || "None!"}</p>
       <p className="tags">
         Tech:
-        {data.tags.map(t => (
-          <Tag>{t}</Tag>
+        {data.tags.map((t, i) => (
+          <Tag key={`${data.id}-tag-${i}`}>{t}</Tag>
         ))}
       </p>
       <p>Description: {data.description}</p>
