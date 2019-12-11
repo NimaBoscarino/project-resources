@@ -5,15 +5,9 @@ import Tag from "./tag"
 
 const TutorialItem = ({ data }) => {
   return (
-    <div
-      style={{
-        margin: "15px",
-        padding: "5px",
-        background: "#EAEAEA",
-      }}
-    >
+    <div className="list-item">
       <a href={data.url}>
-        <h3>{data.name}</h3>
+        <h4>{data.name}</h4>
       </a>
       <p>{data.description}</p>
       <p>
@@ -22,9 +16,9 @@ const TutorialItem = ({ data }) => {
           {data.submitted_by.name}
         </a>
       </p>
-      <p>
-        {data.tags.map(t => (
-          <Tag>{t}</Tag>
+      <p className="tags">
+        {data.tags.map((t, i) => (
+          <Tag key={`${data.id}-tag-${i}`}>{t}</Tag>
         ))}
       </p>
     </div>
@@ -66,17 +60,18 @@ const Tutorials = ({ filter }) => {
   }
 
   return (
-    <div>
-      <h1>Tutorials</h1>
-      <p>
-        Sometimes we just need a walkthrough! Here are some articles, videos,
-        and tutorial series that you might find helpful.
-      </p>
-      <ul>
+    <div className="list-container">
+      <h2 className="inline">Tutorials</h2>
+      <h5 className="inline">
+        {" "}
+        ⁠— Sometimes we need a walkthrough! Here are some articles, videos, and
+        tutorials you might find helpful.
+      </h5>
+      <div className="list">
         {tutorials.map(b => (
           <TutorialItem key={b.node.id} data={b.node} />
         ))}
-      </ul>
+      </div>
     </div>
   )
 }

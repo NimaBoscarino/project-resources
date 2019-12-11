@@ -5,15 +5,9 @@ import Tag from "./tag"
 
 const BoilerplateItem = ({ data }) => {
   return (
-    <div
-      style={{
-        margin: "15px",
-        padding: "5px",
-        background: "#EAEAEA",
-      }}
-    >
+    <div className="list-item">
       <a href={data.url}>
-        <h3>{data.name}</h3>
+        <h4>{data.name}</h4>
       </a>
       <p>{data.description}</p>
       <p>
@@ -22,9 +16,11 @@ const BoilerplateItem = ({ data }) => {
           {data.author.name}
         </a>
       </p>
-      {data.tags.map(t => (
-        <Tag>{t}</Tag>
-      ))}
+      <p className="tags">
+        {data.tags.map((t, i) => (
+          <Tag key={`${data.id}-tag-${i}`}>{t}</Tag>
+        ))}
+      </p>
     </div>
   )
 }
@@ -63,20 +59,22 @@ const Boilerplates = ({ filter }) => {
   }
 
   return (
-    <div>
-      <h1>Boilerplates</h1>
-      <p>
-        These are to help you get you get started with your projects. Think of
-        them like sourdough starters{" "}
+    <div className="list-container">
+      <h2 className="inline">Boilerplates</h2>
+      <h5 className="inline">
+        {" "}
+        ⁠— These are to help you get started with your projects. Think of them
+        like sourdough starters{" "}
         <span role="img" aria-label="bread emoji">
           🍞
         </span>
-      </p>
-      <ul>
+        .
+      </h5>
+      <div className="list">
         {boilerplates.map(b => (
           <BoilerplateItem key={b.node.id} data={b.node} />
         ))}
-      </ul>
+      </div>
     </div>
   )
 }

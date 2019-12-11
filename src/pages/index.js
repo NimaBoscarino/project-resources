@@ -14,37 +14,15 @@ const IndexPage = () => {
 
   return (
     <Layout setSearch={setSearch}>
-      <h1>The best place to find final project resources</h1>
-      <p>
-        Tons of students have worked on final projects at Lighthouse Labs. Why
-        not capitalize on their struggles? This website collects useful
-        boilerplates, tutorials, npm modules, and general tips from instructors,
-        mentors, and students.
-      </p>
-      <p>
-        If you find anything that you'd like to add to this list, please make a
-        pull request over on the{" "}
-        <a href="https://github.com/NimaBoscarino/project-resources">
-          GitHub repo
-        </a>
-      </p>
-      <div
-        style={{
-          marginBottom: "25px",
-        }}
-      >
-        Show:{" "}
+      <div className="project-view-buttons">
         <button onClick={() => setProjectView("projects")}>Projects</button>
-        <button onClick={() => setProjectView("boilerplates")}>
-          Boilerplates
-        </button>
+        <button onClick={() => setProjectView("boilerplates")}>Boilerplates</button>
         <button onClick={() => setProjectView("tutorials")}>Tutorials</button>
       </div>
-      {/* TODO: Create a reusable component */}
+      {/* TODO: Create reusable component */}
       {projectView === "projects" && <Projects filter={search} />}
       {projectView === "boilerplates" && <Boilerplates filter={search} />}
       {projectView === "tutorials" && <Tutorials filter={search} />}
-      <hr />
     </Layout>
   )
 }
